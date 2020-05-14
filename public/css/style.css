@@ -1,0 +1,158 @@
+main {
+    padding: 0 10%;
+}
+
+.titre {
+    text-align: center;
+}
+
+.content__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__empty p{
+    font-style: italic;
+}
+
+/* HEADER */
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header-link {
+    transform: scale(0.9);
+}
+
+.header-link:hover {
+    transform: scale(0.89);
+}
+
+.search-area {
+    position: relative;
+}
+
+.search {
+    width: 300px;
+}
+
+.search-list {
+    z-index: 2;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.search-list li a {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    color: whitesmoke;
+    border-bottom: 0.1px solid whitesmoke;
+    text-decoration: none;
+    background-color: rgb(52, 58, 64);
+}
+
+.search-list li a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* Billets */
+.billet {
+    margin-bottom: 40px
+}
+
+.billet__header {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white
+}
+
+.billet__header h3 {
+    margin-bottom: 0
+}
+
+.billet__header p {
+    margin-bottom: 0;
+    padding-top: 10px
+}
+
+.billet__content {
+    padding: 30px;
+    margin-bottom: 0
+}
+
+.billet__footer {
+    padding: 10px 30px;
+    font-size: 0.8rem
+}
+
+.billet__footer a {
+    color: #1d2124;
+}
+
+/* account*/
+
+.primary-title {
+    margin: 40px 0px;
+    font-style: italic
+}
+
+.secondary-title {
+    margin: 40px 0px;
+}
+
+.account__form {
+    margin-bottom: 40px;
+}
+
+/*COMMENTS*/
+
+.comment {
+    width: 70%;
+    margin-top: 40px
+}
+
+.comment__billet {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white
+}
+
+.comment__billet h3{
+    margin-bottom: 0
+}
+
+.comment__billet p{
+    margin-bottom: 0;
+    padding-top: 10px
+}
+
+.comment__billet h3 span{
+    font-size: 1rem; font-style: italic
+}
+
+.comment__billet-content {
+    padding: 30px;
+    margin-bottom: 0
+}
+
+.comment__autor {
+    font-weight: bold;
+    font-size: 1.2rem
+}
+
+.comment__infos{
+    font-size: 0.9rem
+}
+
+.comment__content {
+    margin-top: 10px;
+    padding-left: 10px
+}
